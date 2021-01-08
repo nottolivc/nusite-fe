@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Card";
 import Card2 from "./Card2";
-import Card3 from "./Card3";
+//import Card3 from "./Card3";
 import { Link } from "react-router-dom";
 
 export const Marketplace: React.FC = (props: any) => {
@@ -33,7 +33,7 @@ export const Marketplace: React.FC = (props: any) => {
                   <br />
                   <Card2 />
                   <br />
-                  <Card3 />
+                  {/*<Card3 />*/}
                </div>
             </main>
             <aside className="sidenav">
